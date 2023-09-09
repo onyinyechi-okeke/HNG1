@@ -9,5 +9,4 @@ const say= now.getTime()
 document.getElementById("time").innerHTML= say;
 }
 
-DateTime();
-setInterval(DateTime, 1000);
+DateTime()
