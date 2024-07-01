@@ -5,29 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>My Profile</title>
+    <title>My Profile Website</title>
 </head>
 <body>
-      <main class="container">
-       <header class="detail" > 
-         <h2 data-testid="slackUserName">itsjustonyii</h2>
-       </header> 
-       
-       <figure >
-        <img src="slackprofile.jpg" alt="itsjustonyii" data-testid="slackDisplayImage">
-       </figure>
 
-      <section class="detail1"> 
-        <h3 id="day" data-testid="currentDayOfTheWeek"></h3>
-        <div class="devider"></div> 
-        <h3 id="time" data-testid="currentUTCTime"></h3>
-        <div class="devider"></div>
-        <h3 data-testid="myTrack">Frontend</h3>
+  <nav class="constant">
+    <div><h2 data-testid="slackDisplayName" class="logo">Onyiicodes</h2></div>
+    <div class="nav1">
+     <h3 id="day" data-testid="currentDay"></h3>
+     <h3 id="time" data-testid="currentTimeUTC"></h3>
+     <h3 data-testid="slackEmail" class="no-display">onyinyechiokeke733@gmail.com</h3>
+    </div>
+   </nav>
+
+      <main class="container">
+
+         <section class="align alignfirst">
+          <div class="align1">
+            <h1>My Tech Goals for the Next Two Years</h1>
+            <p>Setting clear and achievable goals is crucial for personal and professional development, especially in the ever-evolving tech industry. 
+              Over the next two years, I have devised a plan that will not only refine my technical skills but also position me to contribute to a groundbreaking software product. 
+              My journey is structured into two distinct phases: the first year focuses on skill refinement and gaining practical experience through internships, while the second year is 
+              dedicated to monetizing my expertise and participating in the creation of a life-changing software product.
+            </p>
+           </div>
+       <figure >
+        <img src="https://ca.slack-edge.com/T07466B189M-U079YCZGHV0-8ce98dbce888-512" alt="an icon" data-testid="slackProfilePicture" class="adjust">
+       </figure>
       </section>
 
-      <a href="https://github.com/itsjustonyii/HNG1" data-testid="githubURL"><button >Github Repo</button></a>
-      </main>
+      <section class="align realign">
+     <figure >
+      <img src="images/construction.svg" alt="an icon">
+     </figure>
+     <div class="align1">
+      <h1>Year One: Refining skills and gaining practical experience</h1>
+      <p>The first year of my plan is dedicated to honing my technical skills and gaining hands-on experience through internships. 
+        This phase is crucial as it lays the foundation for my future endeavors. I aim to achieve this through a combination of self-study, and practical application.
+      </p>
+      <p>
+        To refine my skills, I plan to enroll in advanced courses related to software development and artificial intelligence. 
+        These courses will help me gain a deeper understanding of the theoretical aspects of these fields. Additionally, I will supplement my learning with tutorials, and coding challenges on 
+        platforms like Coursera, edX, and LeetCode. This approach will ensure that I have a robust knowledge base and can tackle real-world problems effectively.
+      </p>
+      <p>
+        While theoretical knowledge is essential, practical experience is invaluable. Therefore, I plan to secure internships at reputable tech companies. 
+        These internships will provide me with the opportunity to apply my skills in real-world scenarios, work on live projects, and learn from industry professionals. By engaging in internships, 
+        I will gain insights into the workflow, challenges, and best practices of the tech industry. 
+        Additionally, I will focus on building a strong professional network, which can be instrumental in my career progression.
+      </p>
+     </div>
+    </section>
+
+    <section class="align">
+      <div class="align1">
+        <h1>Year Two: Monetizing Expertise and Building a Historic Software Product</h1>
+        <p>The second year of my plan is focused on leveraging my refined skills and experience to monetize my expertise and contribute to the development of a groundbreaking software product. 
+          This phase is about taking the lessons learned in the first year and applying them to achieve significant professional milestones.
+        </p>
+        <p>
+          To monetize my expertise, I plan to take on freelance projects and consulting gigs. This will not only provide a source of income but also expose me to a variety of challenges and industries. 
+          By working with diverse clients, I can expand my skill set and build a reputation as a reliable and innovative problem-solver. 
+          Platforms like Upwork, Freelancer, and Toptal will be instrumental in connecting me with potential clients.
+        </p>
+        <p>
+          A major goal for the second year is to be part of a team that builds a life-changing and historic software product. 
+          Whether this means joining a startup with a bold vision or contributing to a significant project within a larger organization, I am determined to be involved in creating something impactful. 
+          This will require dedication, collaboration, and the ability to innovate under pressure. 
+          By drawing on my refined skills and diverse experiences from the first year, I am confident in my ability to contribute meaningfully to such a project.
+        </p>
+       </div>
+   <figure >
+    <img src="images/moneybag.svg" alt="an icon">
+   </figure>
+  </section>
+
+  <section class="align realign">
+      <figure >
+        <img src="images/handshake.svg" alt="an icon">
+       </figure>
+       <div class="align1">
+        <h1>Conclusion</h1>
+      <p>
+        The next two years represent a critical period in my professional development. By focusing on skill refinement and gaining practical experience in the first year, 
+        I will lay a strong foundation for future success. In the second year, I will leverage this foundation to monetize my expertise and contribute to the development 
+        of a groundbreaking software product. 
+        This journey will require dedication, hard work, and a commitment to continuous learning, but I am confident that it will lead to a fulfilling and impactful career in the tech industry.
+      </p>
+     </div>
+ </section>
+
+    </main>
         
+
+      <footer class="constant">
+       <div><h3>Useful Links</h3></div>
+       <div class="links">
+        <a href="https://hng.tech/learn" target="_blank" data-testid="hngLink"><p>HNG</p></a>
+        <a href="https://keyword.dog/" target="_blank" data-testid="keywordLink"><p>Keyword</p></a>
+        <a href="https://scrapeanyweb.site/" target="_blank" data-testid="scrapeanywebLink"><p>ScrapeanyWeb</p></a>
+        <p data-testid="slackEmail" class="no-display1">onyinyechiokeke733@gmail.com</p>
+       </div>
+      </footer>
+      
     <script src="script.js"></script>
 </body>
 </html>
